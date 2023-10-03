@@ -166,7 +166,7 @@ gsap.fromTo(".logo", { x: -1500}, { x: 0, duration: 1, delay: 0.3, ease: "power2
                     </Link>
                   </Grid>
                   <Grid item>
-                    <Link href="register" variant="body2">
+                    <Link href="/register" variant="body2">
                       {"Don't have an account? Sign Up"}
                     </Link>
                   </Grid>

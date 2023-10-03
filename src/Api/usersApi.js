@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const registerUser = async (username, password) => {
   try {
-    const response = await axios.post('postgres://todo_rt56_user:clJEhVniVGX6QRUsNffoOxVV8iSmkLVc@dpg-ckc3apmsmu8c73dblvng-a.oregon-postgres.render.com/todo_rt56/users/register', {
+    const response = await axios.post('https://daily-do-ewxh.onrender.com/users/register', {
       username: username,
       password: password,
     });
